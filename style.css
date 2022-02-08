@@ -1,0 +1,55 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+  body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+  }
+  p {text-align: justify;
+}
+
+
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+#CV {text-align: center}
+  /* Create a Parallax Effect */
+  .bgimg_1 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* First image (Logo. Full height) */
+  .bgimg_1 {
+    background-image: url('me1.jpeg');
+    min-height: 100%;
+    animation: fadeIn;
+    animation-duration: 2s;
+
+  }
+
+  .w3-wide {letter-spacing: 10px;}
+  .w3-hover-opacity {cursor: pointer;}
+
+  /* Turn off parallax scrolling for tablets and phones */
+  @media only screen and (max-device-width: 1600px) {
+    .bgimg_1 {
+      background-attachment: scroll;
+      min-height: 400px;
+    }
+}
